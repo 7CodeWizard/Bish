@@ -1,0 +1,123 @@
+.logoMenu1 {
+    margin-bottom: 120px;
+}
+
+.heroTitleMargin {
+    font-weight: 900;
+}
+
+.featureTitle {
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.featureMargin {
+    margin-top: 150px;
+    padding: 34px 0 46px 0;
+}
+
+.featureBoxTitle {
+    font-family: 'Raleway';
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 25px;
+}
+
+.iphoneMargin {
+    margin-top: 13px;
+}
+
+.heroBox1 {
+    width: 70%;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 998px) {
+    .featureMargin {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logoMenu1 {
+        margin-bottom: 60px;
+    }
+
+    .featureMargin {
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+
+    .heroBox1 {
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+    .featureTitle {
+        font-size: 16px;
+    }
+
+    .featureItems {
+        margin-top: 5px;
+    }
+
+    .heroTitleMargin {
+        font-size: clamp(28px, 2vw, 34px);
+        font-weight: 900;
+        margin-top: 0;
+        line-height: 30.8px;
+    }
+
+    .logoMenu1 {
+        width: 97px;
+        height: 31px;
+        margin-bottom: 15px;
+    }
+
+    .featureMargin {
+        margin-top: 0;
+        padding: 38px 26px;
+    }
+
+    .section {
+        padding-bottom: 2px !important;
+        padding-top: 15px;
+    }
+
+    .bg2 {
+        width: 100%;
+    }
+
+    .iphoneMargin {
+        margin-left: -5px !important;
+    }
+
+    .iphone1 {
+        margin: 0 !important;
+    }
+
+    .featureBoxTitle {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .featureBox {
+        width: 250px;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+    .heroBox1 {
+        margin-top: 0;
+    }
+}

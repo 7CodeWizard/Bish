@@ -1,0 +1,390 @@
+.App {
+  width: 100%;
+  max-width: 1109px;
+  margin: auto;
+}
+
+.getting_title {
+  margin: auto;
+  padding-top: 173px;
+  width: 818px;
+  font-weight: 700;
+  font-size: 43.99px;
+  line-height: 53.8px;
+  color: #000000;
+  text-align: center;
+}
+
+.gettingCard_container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card_wrapper {
+  width: 355px;
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 25px 30px;
+  border-radius: 6.36px;
+  margin-top: 40px;
+}
+
+.card_check {
+  width: 38px;
+  height: 38px;
+}
+
+.card_title {
+  font-size: 20.5px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.getting_Bar {
+  width: 100%;
+  margin-top: 140px;
+  background: #fb2a63;
+}
+
+.bartext1 {
+  width: 913.55px;
+  font-size: 38.33px;
+  font-weight: 800;
+  line-height: 51.63px;
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.bartext2 {
+  width: 421.01px;
+  font-size: 24.06px;
+  font-weight: 600;
+  line-height: 40.9px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.inputsection_container {
+  padding: 10px;
+  margin-bottom: 75px;
+}
+
+.inputheader {
+  margin-top: 80px;
+}
+
+.inputheader1 {
+  display: none;
+}
+
+.header_title {
+  font-size: 37.61px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.liveInfo {
+  width: 160px;
+  font-weight: 600;
+  font-size: 22.37px;
+  text-align: center;
+  margin: auto;
+  margin-top: 12px;
+}
+
+.inputbody {
+  margin-top: 55px;
+  border-radius: 15.36px;
+  /* padding: 17.56px; */
+  width: 100%;
+  background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputleft {
+  width: 55%;
+}
+
+.inputWrapper {
+  margin-top: 25px;
+}
+
+.inputright {
+  width: 35%;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.inputlabel {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.findAddBtn {
+  width: 47%;
+  height: 50px;
+  margin-top: 30px;
+  background: #fb2a63;
+  border: none;
+  border-radius: 10.16px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.checkBish {
+  width: 70%;
+  padding: 10px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fb2a63;
+  border: none;
+  border-radius: 10.16px;
+  color: #ffffff;
+  font-size: 17.7px;
+}
+
+.leftInput {
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 12.74px;
+  margin-top: 10px;
+  padding-left: 30px;
+  background: white;
+}
+
+.rightInput {
+  width: 75%;
+  height: 40px;
+  border: none;
+  border-radius: 9.86px;
+  margin-top: 10px;
+  padding-left: 30px;
+  background: white;
+}
+
+@media (max-width: 991px) {
+  .getting_title {
+    width: 740px;
+    font-size: 38px;
+  }
+
+  .bartext1 {
+    width: 760px;
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .bartext2 {
+    width: 370px;
+    font-size: 20px;
+    line-height: 37px;
+  }
+}
+
+@media (max-width: 778px) {
+  .getting_title {
+    padding-top: 150px;
+    width: 600px;
+    font-size: 30px;
+  }
+
+  .getting_Bar {
+    margin-top: 100px;
+  }
+
+  .bartext1 {
+    width: 500px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .bartext2 {
+    width: 320px;
+    font-size: 18px;
+    line-height: 33px;
+  }
+
+  .header_title {
+    font-size: 30px;
+  }
+
+  .liveInfo {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 624px) {
+  .backgroundColor {
+    background-color: #d9d9d9;
+    padding: 1px;
+  }
+
+  .getting_title {
+    margin-top: 40px;
+    width: 330px;
+    font-size: 20px;
+    border-radius: 11.43px;
+    line-height: 35px;
+    padding: 10px;
+    margin-top: 130px;
+    background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  }
+
+  .getting_Bar {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 11.43px;
+    background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  }
+
+  .bartext1 {
+    width: 380px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .bartext2 {
+    width: 270px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 15px;
+  }
+
+  .inputheader {
+    display: none;
+  }
+
+  .inputheader1 {
+    display: block;
+    margin: auto;
+    width: 400px;
+    padding-top: 20px;
+    border-radius: 11.43px;
+    margin-top: 80px;
+    background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  }
+
+  .leftInput,
+  .rightInput {
+    width: 92%;
+    background: #f5f5f5;
+  }
+
+  .header_title {
+    font-size: 25px;
+  }
+
+  .liveInfo {
+    font-size: 15px;
+    padding-bottom: 12px;
+  }
+
+  .inputbody {
+    margin-top: 55px;
+    border-radius: 15.36px;
+    width: 100%;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputleft {
+    width: 100%;
+    margin: auto;
+  }
+
+  .inputright {
+    width: 100%;
+    margin: auto;
+  }
+
+  .findAddBtn {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .checkBish {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .getting_title {
+    width: 210px;
+    height: 107px;
+    border-radius: 11.43px;
+    font-size: 20px;
+    padding: 20px 10px 10px 10px;
+    background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  }
+
+  .bartext1 {
+    width: 280px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  .bartext2 {
+    width: 270px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .card_wrapper {
+    width: 300px;
+    padding-top: 28px;
+    padding-bottom: 27px;
+  }
+
+  .card_check {
+    width: 28px;
+    height: 28px;
+  }
+
+  .card_title {
+    font-size: 15.26px;
+  }
+
+  .inputheader1 {
+    margin: auto;
+    width: 318px;
+    margin-top: 80px;
+  }
+
+  .header_title {
+    font-size: 23px;
+  }
+
+  .liveInfo {
+    font-size: 15px;
+    padding-bottom: 12px;
+  }
+}

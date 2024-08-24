@@ -1,0 +1,374 @@
+.sendCodeWrapper {}
+
+.awesomeContainer {
+  width: 100%;
+  background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+}
+
+.awesomeWrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1px;
+}
+
+.awesomeText {
+  width: 535px;
+  font-size: 44.36px;
+  font-weight: 700;
+  line-height: 65.21px;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.eNumberCon {
+  width: 100%;
+}
+
+.eNumberWra {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.eNumLefSec {
+  width: 40%;
+}
+
+.NumleftText {
+  width: 80%;
+  font-size: 29.36px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  padding-top: 130px;
+}
+
+.NumLeftNum {
+  font-size: 24.15px;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sendBish {
+  width: 200px;
+  height: 60px;
+  border-radius: 9.09px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fb2a63;
+  font-size: 17px;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.sendBish:hover {
+  cursor: pointer;
+}
+
+.eNumRigSec {
+  width: 50%;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+  border-radius: 13.77px;
+  padding-left: 30px;
+  margin-bottom: 100px;
+}
+
+.eNumRigText {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.nextCon {
+  display: flex;
+  align-items: center;
+}
+
+.nextText {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.faqContainer {
+  width: 100%;
+  background: #fb2a63;
+}
+
+.faq .faqContainer {
+  background-color: white;
+}
+
+.faq .faqTitle {
+  color: #000000;
+}
+
+.faq .accordionBody {
+  background: white !important;
+  box-shadow: none !important;
+}
+
+.faq .faqAccTitle {
+  color: black !important;
+}
+
+.faq .faqText {
+  color: black !important;
+}
+
+
+.faqWrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.accordionBody {
+  background: #fb2a63 !important;
+  box-shadow: none !important;
+}
+
+.faqTitle {
+  font-size: 43.46px;
+  color: white;
+  text-align: center;
+  font-family: "Raleway";
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.faqAccTitle {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.faqText {
+  font-size: 18px;
+  color: white !important;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid white !important;
+}
+
+@media (max-width: 991px) {
+  .awesomeText {
+    font-size: 38px;
+    width: 500px;
+    line-height: 58px;
+  }
+
+  .NumleftText {
+    width: 80%;
+    font-size: 25px;
+    padding-top: 110px;
+  }
+
+  .NumLeftNum {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+
+  .sendBish {
+    width: 180px;
+    height: 50px;
+  }
+
+  .eNumRigSec {
+    margin-top: 70px;
+    padding-left: 30px;
+    margin-bottom: 70px;
+  }
+
+  .eNumRigText {
+    font-size: 27px;
+    font-weight: 800;
+  }
+
+  .nextText {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 778px) {
+  .awesomeText {
+    font-size: 32px;
+    width: 450px;
+    line-height: 45px;
+  }
+
+  .NumleftText {
+    width: 80%;
+    font-size: 22px;
+    padding-top: 95px;
+  }
+
+  .NumLeftNum {
+    font-size: 18px;
+    margin-top: 22px;
+  }
+
+  .sendBish {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .eNumRigSec {
+    margin-top: 40px;
+    padding-left: 30px;
+    margin-bottom: 70px;
+  }
+
+  .eNumRigText {
+    font-size: 23px;
+    font-weight: 800;
+  }
+
+  .nextText {
+    font-size: 16px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 624px) {
+  .awesomeContainer {
+    background: #d9d9d9;
+  }
+
+  .awesomeText {
+    font-size: 22px;
+    width: 380px;
+    line-height: 30px;
+    background-color: #fb2a63;
+    padding: 12px;
+    border-radius: 6.76px;
+    color: #ffffff;
+    margin-top: 130px;
+  }
+
+  .eNumberWra {
+    flex-direction: column;
+  }
+
+  .eNumLefSec {
+    width: 100%;
+  }
+
+  .NumleftText {
+    font-size: 20px;
+    width: 250px;
+    padding-top: 0px;
+  }
+
+  .eNumRigSec {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+  }
+
+  .eNumberCon {
+    background: #d9d9d9;
+  }
+
+  .NumTopWrap {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 9.96px;
+    background: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  }
+
+  .accordionBody {
+    background: #f5f5f5 !important;
+    box-shadow: none !important;
+  }
+
+  .faqContainer {
+    background: #f5f5f5 !important;
+  }
+
+  .faqAccTitle {
+    font-size: 18px;
+    color: #000000 !important;
+    padding: 10px !important;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    /* font-weight: bold; */
+  }
+
+  .faqTitle {
+    color: #000000;
+  }
+
+  hr {
+    border: 1px solid #737373 !important;
+  }
+
+  .faqText {
+    font-size: 16px;
+    color: #000000 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .awesomeText {
+    font-size: 17px;
+    width: 280px;
+    line-height: 23px;
+    background-color: #fb2a63;
+    padding: 12px;
+    border-radius: 6.76px;
+    color: #ffffff;
+  }
+
+  .NumleftText {
+    font-size: 15px;
+    width: 200px;
+  }
+
+  .NumLeftNum {
+    font-size: 14px;
+  }
+
+  .sendBish {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .eNumRigText {
+    font-size: 17px;
+  }
+
+  .eNumRigSec {
+    padding-left: 15px;
+    margin-bottom: 70px;
+  }
+
+  .nextText {
+    font-size: 15px;
+    margin-left: 13px;
+    margin-bottom: 30px;
+  }
+}

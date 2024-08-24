@@ -1,0 +1,482 @@
+.home {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heroBox {
+    width: 90%;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 42px 0 28px 0;
+}
+
+.bg1 {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    top: 0;
+    z-index: -5;
+}
+
+.logoMenu {
+    margin-bottom: 50px;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.heroTitle {
+    font-family: 'Raleway';
+    font-size: clamp(28px, 2vw, 36px);
+    font-weight: 800;
+    margin: 0;
+}
+
+.heroCard {
+    width: 90%;
+    border-radius: 15px;
+    padding: 19px 23px;
+    background-image: linear-gradient(rgba(251, 42, 99, 0.1275), rgba(251, 42, 99, 0.2625));
+}
+
+.heroCard span {
+    font-size: 20px;
+    line-height: 34.38px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #272727;
+}
+
+.postCode {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 8.5px;
+    padding: 14.4px;
+}
+
+.postCode input {
+    font-size: 18px;
+    border: none;
+}
+
+.sectionText {
+    width: 400px;
+    color: #272727;
+    line-height: 22px;
+    margin: 28px 0;
+}
+
+.postCode input:focus {
+    outline: none;
+    border: none;
+}
+
+.button {
+    height: 38px;
+    text-transform: none !important;
+    background-color: var(--primary-bgColor) !important;
+    border-radius: 6.3px !important;
+    color: white !important;
+}
+
+.button span {
+    font-size: 11px !important;
+    line-height: 18px;
+}
+
+.iphone {
+    float: right;
+    margin-top: 50px;
+}
+
+
+.about {
+    background-color: var(--primary-bgColor);
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.aboutTitle {
+    font-size: 30px;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.aboutDescription {
+    font-size: clamp(20px, 2vw, 28px);
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.checkSquare {
+    height: 66px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.checkImg {
+    margin-right: 23px;
+}
+
+.checkTitle {
+    width: 215px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    text-align: left;
+}
+
+
+.features {
+    padding: 56px 0 120px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.featureBox {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.featureItems {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featureIcon {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    background-color: var(--primary-bgColor);
+}
+
+
+
+.bg2 {
+    position: absolute;
+    width: 95%;
+    left: 0;
+    top: 0;
+    z-index: -5;
+}
+
+.jobText {
+    padding: 90px;
+}
+
+.jobTypes {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.jobBox {
+    width: 170px;
+}
+
+.jobIcon {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: var(--primary-bgColor);
+    margin: auto;
+}
+
+.jobTitle {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+.requirements {
+    background-color: #F5F5F5;
+    padding: 40px 0;
+}
+
+.requirementCard {
+    position: relative;
+    width: 740px;
+    border-radius: 20px;
+    background-color: var(--primary-bgColor);
+    padding: 40px 43px;
+    margin: 20px;
+    color: white;
+}
+
+.requirementCardIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 78px;
+    height: 68px;
+    border-radius: 0 18px 0 20px;
+    background-color: white;
+}
+
+.faq {
+    padding: 160px 70px
+}
+
+.faqTitle {
+    font-size: 43px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .bg1 {
+        width: 880px !important;
+    }
+
+    .requirementCard .aboutTitle {
+        color: #272727;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+
+    .heroCard {
+        width: 300px;
+    }
+
+    .heroCard span {
+        font-size: 15px;
+        line-height: 34.38px;
+    }
+
+    .sectionText {
+        width: 350px;
+        font-size: 13px;
+    }
+
+    .iphone {
+        width: 90%;
+        float: right;
+    }
+
+    .button {
+        width: 244px;
+    }
+
+    .aboutTitle {
+        font-size: 27px;
+    }
+
+    .checkSquare {
+        margin-left: 60px;
+    }
+
+    .checkTitle {
+        font-size: 20px;
+    }
+
+    .featureIcon {
+        width: 110px;
+        height: 110px;
+    }
+
+    .requirementCard {
+        border-radius: 17px;
+        width: 600px;
+    }
+
+    .requirementCardIcon {
+        border-radius: 0 15px 0 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 !important;
+    }
+
+    .number {
+        font-family: 'Raleway';
+    }
+
+    .hero {
+        background-image: linear-gradient(180deg rgba(251, 42, 99, 0.082), white);
+    }
+
+    .topbar {
+        background-color: #F5F5F5 !important;
+    }
+
+    .socialIcon {
+        color: var(--primary-bgColor) !important;
+    }
+
+    .logoMenu {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .iphoneSquare {
+        position: relative;
+        float: right !important;
+    }
+
+    .bg1 {
+        width: 100%;
+    }
+
+    .iphone {
+        right: 0;
+        padding-bottom: 30px !important;
+    }
+
+    .button {
+        width: 244px;
+    }
+
+    .aboutTitle {
+        font-size: 24px;
+    }
+
+    .checkSquare {
+        margin-left: 10px;
+    }
+
+    .checkImg {
+        width: 25px !important;
+    }
+
+    .checkTitle {
+        font-size: 18px;
+    }
+
+    .jobText {
+        padding: 24px;
+        text-align: center;
+    }
+
+    .jobTypes {
+        margin-top: 0px;
+    }
+
+    .jobIcon {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .jobBox {
+        width: 130px;
+    }
+
+    .jobIcon img {
+        width: 20px;
+    }
+
+    .jobTitle {
+        font-size: 18px;
+    }
+
+    .requirementCard {
+        width: 400px;
+        border-radius: 14px;
+    }
+
+    .requirementCardIcon {
+        border-radius: 0 11px 0 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logoMenu {
+        height: 31px;
+        margin-bottom: 0;
+    }
+
+    .heroTitle {
+        margin: 25px 0 20px 0;
+        font-weight: 900;
+    }
+
+    .heroCard {
+        width: 250px;
+    }
+
+    .heroCard span {
+        font-size: 18px;
+        line-height: 21.38px;
+    }
+
+    .postCode input {
+        font-size: 14px;
+    }
+
+    .sectionText {
+        width: 260px;
+        font-size: 14px;
+        margin: 25px auto;
+    }
+
+    .button {
+        width: 100% !important;
+    }
+
+    .iphone {
+        width: 90%;
+    }
+
+    .aboutTitle {
+        font-size: 20px;
+    }
+
+    .aboutDescription {
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    .featureBox {
+        width: 160px;
+        padding: 0 50px
+    }
+
+    .featureIcon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .jobBox {
+        width: 140px;
+    }
+
+    .requirementCard {
+        width: 250px;
+        border-radius: 6.5px;
+        padding: 40px 30px
+    }
+
+    .requirementCardIcon {
+        border-radius: 0 4px 0 6.5px;
+    }
+
+    .requirementCard .aboutDescription {
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .featureTitle {
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 24px;
+    }
+}

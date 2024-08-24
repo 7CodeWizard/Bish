@@ -1,0 +1,45 @@
+:root {
+  --primary-bgColor: #FB2A63;
+  --primary-txtColor: black;
+  --primary-whiteColor: white;
+  --headerBtn: #EAEAEA;
+  --headerBtnCol: #EAEAEA;
+  --headertxtCol: #808080;
+  --headerHBtnCol: #212025;
+
+  --inputPrimaryCol: #C4C4C4;
+}
+
+* {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.itemCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaceAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
