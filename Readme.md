@@ -1,3 +1,5 @@
+<img src="./src/assets/1 (1).png"/>
+<img src="./src/assets/1 (2).png"/>
 # Hi there ??
 
 I'm a Senior Front-End Developer specializing in Angular, JavaScript, and Agile methodologies.
